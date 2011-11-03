@@ -1,3 +1,9 @@
+# revision 23834
+# category Package
+# catalog-ctan /macros/latex/contrib/ctable
+# catalog-date 2011-09-05 13:58:41 +0200
+# catalog-license lppl
+# catalog-version 1.21
 Name:		texlive-ctable
 Version:	1.21
 Release:	1
@@ -77,6 +83,7 @@ future extensions.
 #- source
 %doc %{_texmfdistdir}/source/latex/ctable/ctable.dtx
 %doc %{_texmfdistdir}/source/latex/ctable/ctable.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -87,3 +94,5 @@ future extensions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
