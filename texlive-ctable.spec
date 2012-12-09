@@ -1,12 +1,12 @@
-# revision 26694
+# revision 23834
 # category Package
 # catalog-ctan /macros/latex/contrib/ctable
-# catalog-date 2012-05-28 15:39:00 +0200
+# catalog-date 2011-09-05 13:58:41 +0200
 # catalog-license lppl
-# catalog-version 1.23
+# catalog-version 1.21
 Name:		texlive-ctable
-Version:	1.23
-Release:	1
+Version:	1.21
+Release:	2
 Summary:	Easily typeset centered tables
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ctable
@@ -20,12 +20,12 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-Provides commands to typeset centered, left- or right-aligned
-table and (multiple-)figure floats, with footnotes. Instead of
-an environment, a command with 4 arguments is used; the first
-is optional and is used for key,value pairs generating
-variations on the defaults and offering a route for future
-extensions.
+Provides commands to easily typeset centered, left- or right-
+aligned table and (multiple-)figure floats, with footnotes.
+Instead of an environment, a command with 4 arguments is used;
+the first is optional and is used for key,value pairs
+generating variations on the defaults and offering a route for
+future extensions.
 
 %post
     %{_sbindir}/texlive.post
@@ -49,7 +49,6 @@ extensions.
 %doc %{_texmfdistdir}/doc/latex/ctable/04b
 %doc %{_texmfdistdir}/doc/latex/ctable/05a
 %doc %{_texmfdistdir}/doc/latex/ctable/05b
-%doc %{_texmfdistdir}/doc/latex/ctable/05c
 %doc %{_texmfdistdir}/doc/latex/ctable/06a
 %doc %{_texmfdistdir}/doc/latex/ctable/06b
 %doc %{_texmfdistdir}/doc/latex/ctable/07a
@@ -84,3 +83,17 @@ extensions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.21-2
++ Revision: 750662
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.21-1
++ Revision: 718177
+- texlive-ctable
+- texlive-ctable
+- texlive-ctable
+- texlive-ctable
+
