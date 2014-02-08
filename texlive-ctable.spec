@@ -6,7 +6,7 @@
 # catalog-version 1.21
 Name:		texlive-ctable
 Version:	1.21
-Release:	2
+Release:	3
 Summary:	Easily typeset centered tables
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ctable
