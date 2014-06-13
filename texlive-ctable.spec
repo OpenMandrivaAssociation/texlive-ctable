@@ -6,7 +6,7 @@
 # catalog-version 1.28
 Name:		texlive-ctable
 Version:	1.28
-Release:	1
+Release:	2
 Summary:	Flexible typesetting of table and figure floats using key/value directives
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ctable
