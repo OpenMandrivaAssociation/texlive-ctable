@@ -1,12 +1,12 @@
-# revision 33011
+# revision 33900
 # category Package
 # catalog-ctan /macros/latex/contrib/ctable
-# catalog-date 2014-02-20 19:02:04 +0100
+# catalog-date 2014-05-07 16:18:46 +0200
 # catalog-license lppl
-# catalog-version 1.28
+# catalog-version 1.29
 Name:		texlive-ctable
-Version:	1.28
-Release:	2
+Version:	1.29
+Release:	1
 Summary:	Flexible typesetting of table and figure floats using key/value directives
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ctable
