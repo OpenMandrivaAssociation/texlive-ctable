@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 1.29
 Name:		texlive-ctable
-Version:	1.29
-Release:	4
+Version:	1.31
+Release:	1
 Summary:	Flexible typesetting of table and figure floats using key/value directives
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ctable
